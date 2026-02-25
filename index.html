@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dynamic Employee Information Panel</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Employee Information Panel</h2>
+
+        <div class="button-group">
+            <button onclick="showEmployee(1)">Employee 1</button>
+            <button onclick="showEmployee(2)">Employee 2</button>
+            <button onclick="showEmployee(3)">Employee 3</button>
+        </div>
+
+        <div class="control-buttons">
+            <button id="hideBtn">Hide Panel</button>
+            <button id="showBtn">Show Panel</button>
+            <button id="toggleBtn">Toggle Panel</button>
+            <button id="animateBtn">Animate Panel</button>
+        </div>
+
+        <div class="panel" id="employeePanel">
+            <h3 id="empName">Name:</h3>
+            <p id="empDesignation">Designation:</p>
+            <p id="empDepartment">Department:</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
