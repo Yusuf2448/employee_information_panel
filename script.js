@@ -1,4 +1,4 @@
-// JavaScript DOM Manipulation
+
 function showEmployee(id) {
 
     let name = document.getElementById("empName");
@@ -23,7 +23,7 @@ function showEmployee(id) {
 }
 
 
-// jQuery Functions
+
 $(document).ready(function() {
 
     $("#hideBtn").click(function() {
@@ -45,5 +45,6 @@ $(document).ready(function() {
             left: "0px"
         }, 500);
     });
+
 
 });
